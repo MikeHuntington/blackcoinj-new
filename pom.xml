@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.google</groupId>
-  <artifactId>dogecoinj-parent</artifactId>
+  <artifactId>blackcoinj-parent</artifactId>
   <version>0.12-SNAPSHOT</version>
   <packaging>pom</packaging>
 
@@ -20,14 +20,14 @@
   </parent>
 
   <scm>
-    <connection>scm:git:https://github.com/langerhans/dogecoinj-new/</connection>
-    <developerConnection>scm:git:https://github.com/langerhans/dogecoinj-new/</developerConnection>
-    <url>https://github.com/langerhans/dogecoinj-new</url>
+    <connection>scm:git:https://github.com/MikeHuntington/blackcoinj-new/</connection>
+    <developerConnection>scm:git:https://github.com/MikeHuntington/blackcoinj-new/</developerConnection>
+    <url>https://github.com/MikeHuntington/blackcoinj-new</url>
   </scm>
 
-  <name>dogecoinj Parent</name>
-  <description>Provides the common configuration for the Dogecoinj modules</description>
-  <url>https://github.com/langerhans/dogecoinj-new</url>
+  <name>blackcoinj Parent</name>
+  <description>Provides the common configuration for the blackcoinj modules</description>
+  <url>https://github.com/MikeHuntington/blackcoinj-new</url>
 
   <licenses>
     <license>
@@ -40,20 +40,20 @@
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/langerhans/dogecoinj-new/issues</url>
+    <url>https://github.com/MikeHuntington/blackcoinj-new/issues</url>
   </issueManagement>
 
 <!--  <mailingLists>
     <mailingList>
-      <name>dogecoinj Google Group</name>
-      <post>https://groups.google.com/forum/#!forum/dogecoinj</post>
+      <name>blackcoinj Google Group</name>
+      <post>https://groups.google.com/forum/#!forum/blackcoinj</post>
     </mailingList>
   </mailingLists>-->
 
   <repositories>
     <repository>
-        <id>dogecoinj-distribution</id>
-        <url>https://github.com/langerhans/dogecoinj-new</url>
+        <id>blackcoinj-distribution</id>
+        <url>https://github.com/MikeHuntington/blackcoinj-new</url>
     </repository>
   </repositories>
 
@@ -81,7 +81,7 @@
         <artifactId>slf4j-api</artifactId>
         <version>1.7.6</version>
       </dependency>
-      <!-- dogecoinj consumers are expected to provide their own SLF4J adapters
+      <!-- blackcoinj consumers are expected to provide their own SLF4J adapters
     such as logback, slf4j-log4j12, slf4j-jcl and so on
     see http://www.slf4j.org/faq.html -->
       <dependency>
